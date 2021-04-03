@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Deploying....'
                 sh '''#!/bin/bash
-                    docker-compose up 
+                    sudo docker-compose up 
                 '''                
             }
         }
